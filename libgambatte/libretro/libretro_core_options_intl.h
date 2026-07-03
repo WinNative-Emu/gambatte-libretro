@@ -21726,7 +21726,7 @@ struct retro_core_options_v2 options_en = {
 #define OPTION_VAL_PIXELSHIFT_43_VAPORWAVE_EO NULL
 #define OPTION_VAL_PIXELSHIFT_44_VIRTUAL_BOY_EO NULL
 #define OPTION_VAL_PIXELSHIFT_45_WISH_EO NULL
-#define GAMBATTE_GBC_COLOR_CORRECTION_LABEL_EO NULL
+#define GAMBATTE_GBC_COLOR_CORRECTION_LABEL_EO "Kolorkorekto"
 #define GAMBATTE_GBC_COLOR_CORRECTION_INFO_0_EO NULL
 #define OPTION_VAL_GBC_ONLY_EO NULL
 #define OPTION_VAL_ALWAYS_EO "Ĉiam"
@@ -21741,11 +21741,11 @@ struct retro_core_options_v2 options_en = {
 #define OPTION_VAL_BELOW_SCREEN_EO NULL
 #define GAMBATTE_DARK_FILTER_LEVEL_LABEL_EO NULL
 #define GAMBATTE_DARK_FILTER_LEVEL_INFO_0_EO NULL
-#define GAMBATTE_MIX_FRAMES_LABEL_EO NULL
+#define GAMBATTE_MIX_FRAMES_LABEL_EO "Miksado inter filmeroj"
 #define GAMBATTE_MIX_FRAMES_INFO_0_EO NULL
-#define OPTION_VAL_MIX_EO NULL
-#define OPTION_VAL_LCD_GHOSTING_EO NULL
-#define OPTION_VAL_LCD_GHOSTING_FAST_EO NULL
+#define OPTION_VAL_MIX_EO "Simpla"
+#define OPTION_VAL_LCD_GHOSTING_EO "Fantasmigo de LCD (preciza)"
+#define OPTION_VAL_LCD_GHOSTING_FAST_EO "Fantasmigo de LCD (rapida)"
 #define GAMBATTE_AUDIO_RESAMPLER_LABEL_EO "Resonpecigado"
 #define GAMBATTE_AUDIO_RESAMPLER_INFO_0_EO NULL
 #define OPTION_VAL_SINC_EO NULL
@@ -21756,7 +21756,7 @@ struct retro_core_options_v2 options_en = {
 #define OPTION_VAL_GBA_EO NULL
 #define GAMBATTE_GB_BOOTLOADER_LABEL_EO NULL
 #define GAMBATTE_GB_BOOTLOADER_INFO_0_EO NULL
-#define GAMBATTE_UP_DOWN_ALLOWED_LABEL_EO NULL
+#define GAMBATTE_UP_DOWN_ALLOWED_LABEL_EO "Permesi kontraŭajn direktojn"
 #define GAMBATTE_UP_DOWN_ALLOWED_INFO_0_EO NULL
 #define GAMBATTE_TURBO_PERIOD_LABEL_EO NULL
 #define GAMBATTE_TURBO_PERIOD_INFO_0_EO NULL
@@ -31559,7 +31559,7 @@ struct retro_core_options_v2 options_ga = {
 #define GAMBATTE_DARK_FILTER_LEVEL_INFO_0_GL "Activa a redución de brillo baseada na luminosidade. Pódese usar para evitar o brillo ou a fatiga ocular cando se xoga a xogos con fondos brancos, que están pensados para mostrarse nunha Game Boy Color sen retroiluminación e, polo tanto, poden parecer incómodamente brillantes cando se ven nunha pantalla retroiluminada moderna."
 #define GAMBATTE_MIX_FRAMES_LABEL_GL "Mestura entre fotogramas"
 #define GAMBATTE_MIX_FRAMES_INFO_0_GL "Simula efectos de pantalla fantasma LCD. 'Simple' realiza unha mestura 50:50 dos fotogramas actuais e anteriores. 'LCD Ghosting' imita os tempos de resposta naturais da LCD combinando varios cadros almacenados en búfer. A mestura \"simple\" é necesaria cando se xoga a xogos que dependen da pantalla fantasma LCD para efectos de transparencia (Wave Race, Ballistic, Chikyuu Kaihou Gun ZAS...)."
-#define OPTION_VAL_MIX_GL NULL
+#define OPTION_VAL_MIX_GL "Sinxelo"
 #define OPTION_VAL_LCD_GHOSTING_GL "Pantalla fantasma LCD (precisa)"
 #define OPTION_VAL_LCD_GHOSTING_FAST_GL "Pantalla fantasma LCD (rápida)"
 #define GAMBATTE_AUDIO_RESAMPLER_LABEL_GL "Remostreador de audio"
